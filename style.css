@@ -1,0 +1,475 @@
+/* Code Owner Pablo Olivera */
+
+@font-face {
+    font-family: Lobster;
+    src: url("./Fuentes/Lobster/Lobster-Regular.ttf") format("opentype");
+}
+@font-face {
+    font-family: HandWrite;
+    src: url("./Fuentes/Just_Another_Hand/JustAnotherHand-Regular.ttf") format("opentype");
+}
+body{
+  background-color: rgb(81, 219, 81);
+}
+.a{
+    text-align: center;
+    animation-name: a;
+    animation-duration:3s;
+    color: black;
+    background-color: deepskyblue;
+}
+.a:hover{
+    background-color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.volver{
+  text-align: center;
+  color: black;
+  background-color: deepskyblue;
+  animation-name: volv;
+  animation-duration:3s;
+}
+.volver:hover{
+  background-color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+@keyframes volv {
+  from {
+   margin-top: 1000px;
+  }
+
+  to {
+  margin-top: 5px;
+  }
+  
+}
+.v{
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.b{
+    font-family: Lobster;
+    font-size: 90px;
+    text-align: center;
+    margin-top:18%;
+    animation-duration: 3s;
+    animation-name: b;
+}
+@keyframes a {
+    from {
+     margin-top: 1000px;
+     width: auto;
+    }
+  
+    to {
+    margin-top: -1%;
+    width: auto;
+    }
+    
+  }
+
+ @keyframes b {
+    from {
+     margin-top:-100px;
+     width: auto;
+    }
+  
+    to {
+    margin-top: 18%;
+    width: auto;
+    }
+    
+  }
+/* De la presentación */
+
+.press{
+    text-align: center;
+    font-size: 100px;
+    font-family: Lobster;
+    margin-top: 200px;
+    animation-name: press;
+    animation-duration:3s;
+}
+.np{
+   font-family: HandWrite; 
+   font-size: 50px;
+   text-align: center;
+   margin-top:-40px;
+   animation-name: np;
+   animation-duration:3s;
+}
+.fp{
+    font-family: HandWrite; 
+    font-size: 30px; 
+    text-align: center;
+    margin-top:-40px;
+}
+.q{
+    margin-top: -40px; 
+    animation-name: q;
+    animation-duration:3s;
+    color: black;
+    background-color: deepskyblue;
+}
+.q:hover{
+    background-color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.w{
+    margin-top: -40px; 
+    animation-name: w;
+    animation-duration:3s;
+    color: black;
+    background-color: deepskyblue;
+}
+.w:hover{
+    background-color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+@keyframes q {
+    from {
+     margin-left: -100px;
+     width: auto;
+    }
+  
+    to {
+    margin-left: 600px;
+    width: auto;
+    }
+    
+  }
+  @keyframes w {
+    from {
+     margin-left:1800px;
+     width: auto;
+    }
+  
+    to {
+    margin-left: 615px; 
+    margin-right: 594px;
+    width: auto;
+    }
+    
+  }
+  @keyframes np {
+    from {
+     margin-top:-300px;
+     width: auto;
+    }
+  
+    to {
+    margin-top: -40px;
+    width: auto;
+    }
+    
+  }
+  @keyframes press {
+    from {
+     margin-left:-2000px;
+     width: auto;
+    }
+  
+    to {
+    text-align: center;
+    width: auto;
+    }
+    
+  }
+  .af{
+    width: 245px;
+    margin-right:50px;
+    border-radius: 30px;
+    animation-name: c;
+    animation-duration:3s;
+  }
+  .an{
+    font-family: Lobster;
+    text-align: center;
+    font-size: 80px;
+    animation-name: d;
+    animation-duration:3s;
+    
+  }
+  .show{
+    font-family: HandWrite;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  .intereses{
+    border-radius: 10px;
+    border: solid black;
+    width: 490px;
+    margin-right: 700px;
+    margin-top: 80px;
+    animation-name: e;
+    animation-duration:3s;
+  }
+  .conocimientos{
+    border-radius: 10px;
+    border: solid black;
+    width: 490px;
+    margin-left: 700px;
+    margin-top: -200px;
+    animation-name: f;
+    animation-duration:3s;
+  }
+  .nom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+  }
+ /* @keyframes c {
+    from {
+     margin-top:900px;
+    }
+  
+    to {
+    margin-top: -250px;
+    }
+    
+  }*/
+  @keyframes d {
+    from {
+     margin-top:-300px;
+    }
+  
+    to {
+      margin-top: 50px;
+    }
+    
+  }
+  @keyframes e {
+    from {
+     margin-left:4000px;
+    }
+  
+    to {
+    margin-left: 40px;
+    }
+    
+  }
+  @keyframes f {
+    from {
+     margin-left:-3000px;
+    }
+  
+    to {
+    margin-left: 750px;
+    }
+    
+  }
+  .em{
+   width: 50px;
+   margin-bottom: -100px;
+   margin-left: 30px;
+  }
+  .pr{
+   width: 50px;
+   margin-bottom: -100px;
+   margin-left: 10px;
+  }
+  .ca{
+   width: 50px;
+   margin-bottom: -100px;
+   margin-left: 30px;
+  }
+
+  .emp{
+    font-family: HandWrite;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 40px;
+  }
+  .empleo{
+    border-radius: 10px;
+    border: solid black;
+    width: 330px;
+    margin-right: 600px;
+    margin-top: 50px;
+    animation-name: g;
+    animation-duration: 3s;
+  }
+  .obj{
+    text-align: center;
+    font-size: 100px;
+    font-family: Lobster;
+    margin-top: 100px;
+    animation-name: press;
+    animation-duration:3s;
+  }
+
+  .programar{
+    border-radius: 10px;
+    border: solid black;
+    width: 380px;
+    margin-left: 750px;
+    margin-top:-60px;
+    animation-name: i;
+    animation-duration: 3s;
+  }
+
+  .cantar{
+    border-radius: 10px;
+    border: solid black;
+    width: 330px;
+    margin-top: -50px;
+    margin-right: 600px;
+    animation-name: j;
+    animation-duration: 3s;
+  }
+  .pressi{
+    text-align: center;
+    font-size: 100px;
+    font-family: Lobster;
+    margin-top: 40px;
+    animation-name: press;
+    animation-duration:3s;
+}
+@keyframes g {
+  from {
+   margin-top:900px;
+  }
+
+  to {
+   margin-top: 50px;
+  }
+  
+}
+@keyframes i {
+  from {
+    margin-left:-4000px;
+   }
+ 
+   to {
+   margin-left: 750px;
+   }
+  
+}
+@keyframes j {
+  from {
+    margin-top:-3000px;
+   }
+ 
+   to {
+   margin-top: -50px;
+   }
+  
+}
+
+.z{ 
+    position: absolute;
+    top: 420px;
+    margin-right: 60px;
+    animation-name: a;
+    animation-duration:3s;
+    color: black;
+    background-color: deepskyblue;
+}
+.z:hover{
+    background-color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.emp1{
+    font-family: HandWrite;
+    font-size: 20px;
+    text-align: center;
+  }
+
+.x{
+    margin-top: -40px; 
+    position: absolute;
+    top: 420px;
+    margin-right: 60px;
+    animation-name: a;
+    animation-duration:3s;
+    color: black;
+    background-color: deepskyblue;
+}
+
+.x:hover{
+    background-color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.empleo1{
+  border-radius: 10px;
+  border: solid black;
+  width: 330px;
+  margin-right: 650px;
+  margin-top: 30px;
+  animation-name: k;
+  animation-duration: 3s;
+}
+
+.programar2{
+  border-radius: 10px;
+  border: solid black;
+  width: 380px;
+  margin-left: 680px;
+  margin-top:-60px;
+  animation-name: l;
+  animation-duration: 3s;
+}
+
+.cantar3{
+  border-radius: 10px;
+  border: solid black;
+  width: 330px;
+  margin-top: 30px;
+  margin-right: 650px;
+  animation-name: m;
+  animation-duration: 3s;
+}
+@keyframes k {
+from {
+ margin-top:900px;
+}
+
+to {
+ margin-top: 30px;
+}
+
+}
+@keyframes l {
+from {
+  margin-left:4000px;
+ }
+
+ to {
+ margin-left: 680px;
+ }
+
+}
+@keyframes m {
+from {
+  margin-top:-3000px;
+ }
+
+ to {
+ margin-top: 30px;
+ }
+
+}
+.dp{
+ margin-left: 80px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
